@@ -1,6 +1,9 @@
 <?php
-class RPS
-{
+// class RPS
+// {
+//     private $first_input;
+//     private $second_input;
+
   function playGame($first_input, $second_input) {
     if ($first_input == "rock" && $second_input == "scissors") {
       return "Player 1";
@@ -18,7 +21,7 @@ class RPS
       return "Player 1";
     }
   }
-}
+// }
 
 
  ?>

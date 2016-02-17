@@ -9,5 +9,21 @@ body {
 }
 
 .jumbotron {
-    background-image: url("images/rps.jpg");
+    background-image: url("../rps.jpg");
+    color: white;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*background: #000 url("../rps.jpg");
+background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+color: white;
+height: 100%;
+width: 100%;*/
+
 }

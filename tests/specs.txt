@@ -1,0 +1,26 @@
+Input: rock and scissors
+we expect rock to beat scissor and return player1
+
+input: scissors and rock
+we expect scissors to lose to rock and return player2
+
+input: rock and rock
+we expect no winners and to return Draw
+
+input: rock and paper
+we expect rock to lose to paper and return player2
+
+input paper and rock
+we expect paper to beat rock and return player1
+
+input: paper and paper
+we expect no winners and to return Draw
+
+input paper and scissors
+we expect paper to lose to scissors and return player2
+
+input scissors and paper
+we expect scissors to beat paper and return player1
+
+input scissors and scissors
+we expect no winners and to return Draw

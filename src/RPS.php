@@ -6,6 +6,10 @@ class RPS
       return "Player 1";
     } elseif ($first_input == "scissors" && $second_input == "rock") {
       return "Player 2";
+    } elseif ($first_input == $second_input) {
+      return "Draw";
+    } elseif ($first_input == "rock" && $second_input == "paper") {
+      return "Player 2";
     }
   }
 }

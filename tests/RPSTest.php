@@ -31,6 +31,32 @@
             //Assert
             $this->assertEquals("Player 2", $result);
         }
+        function test_draw()
+        {
+            //Arrange
+            $test_RPS = new RPS;
+            $first_input = "rock";
+            $second_input = "rock";
+
+            //Act
+            $result = $test_RPS->playGame($first_input, $second_input);
+
+            //Assert
+            $this->assertEquals("Draw", $result);
+        }
+        function test_rock_paper()
+        {
+            //Arrange
+            $test_RPS = new RPS;
+            $first_input = "rock";
+            $second_input = "paper";
+
+            //Act
+            $result = $test_RPS->playGame($first_input, $second_input);
+
+            //Assert
+            $this->assertEquals("Player 2", $result);
+        }
     }
 
 ?>

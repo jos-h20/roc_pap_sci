@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#player1 {
+    margin-bottom: 5px;
+}
+
+.jumbotron {
+    background-image: url("images/rps.jpg");
+}

@@ -10,6 +10,8 @@ class RPS
       return "Draw";
     } elseif ($first_input == "rock" && $second_input == "paper") {
       return "Player 2";
+    } elseif ($first_input == "paper" && $second_input == "rock") {
+      return "Player 1";
     }
   }
 }

@@ -109,6 +109,19 @@
             //Assert
             $this->assertEquals("Player 1", $result);
         }
+        function test_scissors_scissors()
+        {
+            //Arrange
+            $test_RPS = new RPS;
+            $first_input = "scissors";
+            $second_input = "scissors";
+
+            //Act
+            $result = $test_RPS->playGame($first_input, $second_input);
+
+            //Assert
+            $this->assertEquals("Draw", $result);
+        }
     }
 
 ?>
